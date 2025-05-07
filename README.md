@@ -56,11 +56,12 @@ conda activate app-demand
 4. **Database credentials:**
 - Create a `.env` file in the project root with:
 ```dotenv
-DB_USER=your_username
-DB_PASS=your_password
-DB_HOST=hostname_or_ip
+DB_USER=<mysql_user>
+DB_PASS=<mysql_password>
+DB_HOST=127.0.0.1      
 DB_PORT=3306
-DB_NAME=shopify2024
+DB_NAME=<db_name>
+DB_CONNECTION=mysql
 ```
 
 - Set these environment variables manually according to your database.
