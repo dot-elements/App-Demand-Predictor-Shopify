@@ -50,7 +50,9 @@ conda activate app-demand
 ```
 3. **Install dependencies:**
 
-``pip install -r requirements.txt``
+```bash
+pip install -r requirements.txt
+```
 
 
 4. **Database credentials:**
